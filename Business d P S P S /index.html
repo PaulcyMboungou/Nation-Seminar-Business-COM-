@@ -7,193 +7,34 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script>
 
-  
-function loadXMLDoc()
-{
-var xmlhttp;
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.onreadystatechange=function()
-  {
-  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-    {
-    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-    }
-  }
-xmlhttp.open("GET","dates.html",true);
-xmlhttp.send();
-}
-</script>
-
-<script>
-function loadXML()
-{
-var xmlhttp;
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.onreadystatechange=function()
-  {
-  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-    {
-    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-    }
-  }
-xmlhttp.open("GET","fees.html",true);
-xmlhttp.send();
-}
-</script>
-
-<script>
-function loadXM()
-{
-var xmlhttp;
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.onreadystatechange=function()
-  {
-  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-    {
-    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-    }
-  }
-xmlhttp.open("GET","facility.html",true);
-xmlhttp.send();
-}
-</script>
-
-<script>
-function loadX()
-{
-var xmlhttp;
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.onreadystatechange=function()
-  {
-  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-    {
-    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-    }
-  }
-xmlhttp.open("GET","insight.html",true);
-xmlhttp.send();
-}
-</script>
-
-<script>
-function load()
-{
-var xmlhttp;
-if (window.XMLHttpRequest)
-  {// code for IE7+, Firefox, Chrome, Opera, Safari
-  xmlhttp=new XMLHttpRequest();
-  }
-else
-  {// code for IE6, IE5
-  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xmlhttp.onreadystatechange=function()
-  {
-  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-    {
-    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-    }
-  }
-xmlhttp.open("GET","theme.html",true);
-xmlhttp.send();
-}
-</script>
 </head>
+
 <body>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="http://www.stmaryscollege.in/">St. Mary's College</a>
-    </div>
     <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">HOME</a></li>
-        <li><a href="dep.html">OUR DEPARTMENT</a></li>
+        <li><a href="http://www.stmaryscollege.in/">ABOUT COLLEGE</a></li>
+        <li><a href="dep.html">ABOUT DEPARTMENT</a></li>
+        <li><a href="seminar.html">ABOUT THE SEMINAR</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-        <li><a href="college.html">OUR COLLEGE</a></li>
       </ul>
     </div>
   </div>
 </nav>
-  
-<div class="container">
-  <div class="jumbotron">
-    <center><h1><font color="#001F3D" face="Book Antiqua">NATIONAL SEMINAR</font></h1>
-            <h2><font color="red" face="Lucida Calligraphy">BUSINESS DYNAMICS <br> A PARADIGM SHIFT IN <br> POLICIES FOR <br> SUSTAINABILITY </font></h2><br>
-    </center>      
-    <p><font color="#000099" face="Book Antiqua">Organized by the Department of Commerce & Management </font>
-    <br> 
-    <font color="#001F3D" face="Book Antiqua">Date : 31st October, 2015 </font>
-    </p> 
-    <img src="college1.jpeg" alt="St. Mary's College" style="float:right"> <br> <br> <br> <br>
-  </div>
 
-  <div class="row">
-    <div class="col-md-4">
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a>ABOUT THE SEMINAR</a></li>
-        <li><a type="button" onclick="loadXMLDoc()"> DATES & CALL FOR PAPER</a></li>
-        <li><a type="button" onclick="loadXML()">REGISTRATION FEES</a></li>
-        <li><a type="button" onclick="loadXM()">ACCOMMODATION FACILITY & ABSTRACT</a></li>
-        <li><a type="button" onclick="loadX()">INSIGHT ON SEMINAR</a></li>
-        <li><a type="button" onclick="load()">PAPER RELATED TO THEMES</a></li>
-      </ul>
-    </div>
+<div>
+      <img src="bg.jpg" alt="St. Mary's College" width="100%" height="650">
+</div>
 
-    <div class="col-md-8">
-    <div id="myDiv" >
-      <center><h2><font color="#0066CC">MOTTO OF SEMINAR</font></h2></center>
-      <p>The motto behind organizing the National Seminar is to have an academic forum of discussions on the cutting-edge researches on change in business policies or reforms and its impact on sustainable development. It is our strong belief that such a forum will pave way for constructive opinions which can be an innovative tool(s) in stimulating the changing course of business activities.</p>
 
-      <center><h2><font color="#0066CC">BENEFITS TO DELEGATES</font></h2></center>
-      <p>
-        
-1) Sharing of knowledge <br>
-2) Understanding emerging business dynamics, opportunities & challenges <br>
-3) To get acknowledged with varied opinions on emerging business strategies <br>
-4) Certification and Publication in Conference Proceedings with ISBN Number
-      </p>
-    </div>
-    </div>
-
-  </div>
-  <br> <br>
-
-  <div class="col-md-3"> 
+  <!-- <div class="col-md-3"> 
       <center>
         <h3>Powered by</h3>
-        <p>#KCS-CONGO </br> paulcy.mboungou@gmail.com</p>
+        <p>#KSC-CONGO </br> paulcy.mboungou@gmail.com</p>
       </center>
     </div>
   <div class="col-md-3"> 
@@ -210,11 +51,9 @@ xmlhttp.send();
     </div>
   <div class="col-md-3"> 
       <center>
-        <h3>Our College</h3>
-        <p>St. Mary's College <br> <a href="http://www.stmaryscollege.in/">Visit WebSite</a></p>
+        <p><a href="http://www.stmaryscollege.in/"><img src="college1.jpeg" alt="St. Mary's College"></a></p>
       </center>
-    </div>
-
+    </div> -->
 
 </body>
 </html>
